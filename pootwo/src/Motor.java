@@ -1,0 +1,34 @@
+public class Motor {
+    private double cilidranda;
+    private TipoMotor tipo;
+    ////////////////////////////////////////////////////////////////////////////////////////////
+
+    public Motor() {
+    }
+
+    public Motor(double cilidranda, TipoMotor tipo) {
+        this.cilidranda = cilidranda;
+        this.tipo = tipo;
+    }
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    public double getCilidranda() {
+        return this.cilidranda;
+    }
+
+    public void setCilidranda(double cilidranda) {
+        this.cilidranda = cilidranda;
+    }
+
+    public TipoMotor getTipo() {
+        return this.tipo;
+    }
+
+    public void setTipo(TipoMotor tipo) {
+        this.tipo = tipo;
+    }
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+}
